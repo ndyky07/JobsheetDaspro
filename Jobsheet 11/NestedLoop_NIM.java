@@ -16,13 +16,15 @@ public class NestedLoop_NIM {
             }
             System.out.println();
         }
-
-        for (int i = 0; i < temps.length; i++) {
-            System.out.print("Kota ke-" + (i + 1) + ": ");
-            for (int j = 0; j < temps[0].length; j++) {
-                System.out.print(temps[i][j] + " ");
+        
+        int kotaIndex = 1;
+        for (int [] kotaTemps : temps) {
+            System.out.print("Kota ke-" + kotaIndex + ": ");
+            for (int temp : kotaTemps) {
+                System.out.print(temp + " ");
             }
             System.out.println();
+            kotaIndex++;
         }
     }
 }
