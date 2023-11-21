@@ -4,3 +4,4 @@ public class Terimakasih_14 {
         "You inspired in me a love for learning and made me feel like I could ask you anything.");
     }
 }
+
